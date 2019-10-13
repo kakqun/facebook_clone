@@ -1,6 +1,7 @@
 :root {
     --back-ground-color: rgb(59, 89, 152);
     --main-color: #538ADC;
+    --sub-color: #3B5998;
 }
 
 body {
@@ -9,13 +10,17 @@ body {
 }
 
 .wrapper {
+    height: 509px;
     width: 700px;
     margin: 0 auto;
+    border: 1px solid var(--sub-color);
 }
 
+/* header */
+
 header {
-    width: 100%;
     height: 71px;
+    width: 100%;
     background-color: var(--back-ground-color);
 }
 
@@ -47,4 +52,44 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 11px;
+}
+
+/* side-der */
+
+.side-bar {
+    height: 96px;
+    width: 116px;
+    border: 1px dashed var(--sub-color);
+    margin: 2px;
+    padding: 2px;
+    font-size: 11px;
+}
+
+.side-bar span{
+    float: right;
+}
+
+.input-text {
+    border: 1px double #666;
+    background-color: #D9DFEA;
+    width: 100%;
+}
+
+.submit-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.input-submit {
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-top-color: #D9DFEA;
+    border-left-color: #D9DFEA;
+    border-bottom-color: var(--sub-color);
+    border-right-color: var(--sub-color);
+    background-color: var(--main-color);
+    color: #FFFFFF;
 }
