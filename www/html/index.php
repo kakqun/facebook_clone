@@ -1,8 +1,5 @@
 <html>
-    <head>
-        <title>Thefacebook | Welcome to Thefacebook!</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+    <?php require_once(__DIR__. '/head.html'); ?>
     <body>
         <div class="wrapper">
             <header>
