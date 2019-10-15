@@ -15,16 +15,6 @@
                 <div class="top-content login">
                     <h1>[ Login ]</h1>
                     <form method="POST" action="./login.php">
-                    <!--
-                        <span>Email:</span>
-                        <input type="text" class="input-text" name="email">
-                        <span>Password:</span>
-                        <input type="password" class="input-text" name="email">
-                        <div class="submit-wrapper">
-                            <input type="submit" class="input-submit" value="login">
-                            <input type="submit" class="input-submit" value="register">        
-                        </div>
-                    -->
                     <table>
                     <tr><td>Email:</td>
                         <td><input type="text" class="input-text" name="email" value=""></td></tr>
