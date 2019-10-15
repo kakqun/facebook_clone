@@ -82,6 +82,7 @@ header {
 .submit-wrapper {
     width: 100%;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .input-submit {
@@ -96,6 +97,7 @@ header {
     border-right-color: var(--sub-color);
     background-color: var(--main-color);
     color: #FFFFFF;
+    font-size: 11px;
 }
 
 /* footer */
@@ -113,7 +115,6 @@ footer a{
 /* content */
 .top-content {
     width: 578px;
-    height: 409px;
     border: 1px solid var(--sub-color);
     margin: 2px 2px;
 }
@@ -148,3 +149,27 @@ footer a{
     text-align: center;
     margin: 0 50px;
 }
+
+/* login */
+
+.login h1 {
+    margin: 20px 0;
+}
+
+.login .input-text {
+    width: 160px;
+}
+
+.login p {
+    text-align: center;
+    font-size: 11px;
+}
+
+.login table {
+    margin: 0 auto;
+}
+
+.login td {
+    font-size: 11px;
+}
+

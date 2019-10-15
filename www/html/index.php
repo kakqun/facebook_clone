@@ -1,5 +1,8 @@
 <html>
-    <?php require_once(__DIR__. '/head.html'); ?>
+    <head>
+        <title>Thefacebook | Welcome to Thefacebook!</title>
+        <?php require_once(__DIR__. '/head.html'); ?>
+    </head>
     <body>
         <div class="wrapper">
             <header>
@@ -35,8 +38,8 @@
                         <p>To get started, click below to register. If you have already registered, you can log in.</p>
                     </div>
                     <div class="submit-wrapper">
-                        <input type="submit" class="input-submit" value="register">  
-                        <input type="submit" class="input-submit" value="login">      
+                        <input type="submit" class="input-submit" value="Register">  
+                        <input type="submit" class="input-submit" value="Login" onclick="location.href='login.php'">      
                     </div>
                 </div>
             </div>
