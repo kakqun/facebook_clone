@@ -178,3 +178,22 @@ footer a{
 .register p {
     font-size: 11px;
 }
+
+.register-form {
+    margin: 0 20px;
+}
+
+.register-form table{
+    font-size: 11px;
+    margin: 0 100px;
+}
+
+.register-form .input-text {
+    width: 156px;
+}
+
+.register-form select {
+    width: 115px;
+    border: 1px double #666;
+    background-color: #D9DFEA;
+}
