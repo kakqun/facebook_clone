@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Thefacebook | Welcome to Thefacebook!</title>
-        <?php require_once(__DIR__. '/head.html'); ?>
+        <?php require_once(__DIR__. '/head.html'); ?>  
     </head>
     <body>
         <div class="wrapper">
